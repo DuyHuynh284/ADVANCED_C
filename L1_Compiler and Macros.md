@@ -1,7 +1,7 @@
 # Bài 1: Compiler và Macros 
 ## 1. Compiler làm gì?
-- Máy tính, MCU chỉ làm việc với hệ nhị phân 0/1 chính vì vậy cần compiler để chuyển các ngôn ngữ bậc cao như C, C++
-sang nhị phân thì máy tính, mcu mới hiểu và thực thi được ví dụ như nói chuyện với người nước ngoài cần 1 công cụ dịch thuật 
+- Máy tính, MCU chỉ làm việc với hệ nhị phân 0|1 chính vì vậy cần compiler để chuyển các ngôn ngữ bậc cao như C, C++,...
+sang nhị phân thì máy tính, MCU mới hiểu và thực thi được ví dụ như nói chuyện với người nước ngoài cần 1 công cụ dịch thuật 
 như google dịch để dịch ngôn ngữ của mình sang ngôn ngữ họ để họ hiểu.  
 ###  Đặc điểm của Compiler?
 - Quá trình biên dịch trải qua 4 giai đoạn chính
