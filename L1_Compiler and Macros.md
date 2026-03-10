@@ -119,9 +119,10 @@ int main(int argc, char const *argv[])
 +	#ifdef dùng để kiểm tra một macro đã được định nghĩa hay chưa, nếu macro đã được định nghĩa thì mã nguồn sau #ifdef sẽ được biên dịch.
 +	#ifndef dùng để kiểm tra một macro đã được định nghĩa hay chưa, nếu macro chưa được định nghĩa thì mã nguồn sau #ifndef sẽ được biên dịch.
 + #endif để kết thúc việc kiểm tra
+## Những thành phần macro khác 
 ### Toán tử # trong #define
 Chuẩn hóa 1 đoạn văn bản thành kiểu “chuỗi” bất kỳ
-### 4.	Toán tử ## trong #define
+### Toán tử ## trong #define
 Nối chuỗi với nhau hoặc 2 văn bảng với nhau 
 ```
 #define n(prefix,number) int prefix##number
@@ -134,6 +135,6 @@ n(var,2) = var2
 ### Công thức tính số lượng phần tử
 + Công thức tính số lượng phần tử của bất kỳ dữ liệu nào cho mọi mảng:
 ```
-**sizeof(arr[])/sizeof(arr[0])**
+sizeof(arr[])/sizeof(arr[0])
 ```
 
