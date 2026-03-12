@@ -35,3 +35,10 @@ git status
 git commit -m "add L3 bitmask lesson"
 git push
 ```
+#### push 1 file
+```
+git pull origin main
+git add "L4_Variadic macro/Variadic_sum.c"
+git commit -m "update Variadic sum"
+git push origin main
+```
