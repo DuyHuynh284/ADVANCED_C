@@ -135,6 +135,6 @@ n(var,2) = var2
 ### Công thức tính số lượng phần tử
 + Công thức tính số lượng phần tử của bất kỳ dữ liệu nào cho mọi mảng:
 ```
-sizeof(arr[])/sizeof(arr[0])
+sizeof(arr)/sizeof(arr[0])
 ```
 
