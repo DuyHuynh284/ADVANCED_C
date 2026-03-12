@@ -27,3 +27,11 @@ ESC
 :wq
 Enter
 ```
+#### push 1 folder
+```
+git pull
+git add L3_Bitmask
+git status
+git commit -m "add L3 bitmask lesson"
+git push
+```
