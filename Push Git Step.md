@@ -38,7 +38,7 @@ git push
 #### push 1 file
 ```
 git pull origin main
-git add "L4_Variadic macro/Variadic_sum.c"
-git commit -m "update Variadic sum"
+git add "<Folder>/<File>"
+git commit -m "update <file or feature>"
 git push origin main
 ```
