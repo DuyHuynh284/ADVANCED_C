@@ -37,5 +37,8 @@ int main(int argc, char const *argv[]) // int argc, char const *argv[]: Dùng kh
 }
 
 
+```
+OUTPUT: tong: 91
+```
 
 
