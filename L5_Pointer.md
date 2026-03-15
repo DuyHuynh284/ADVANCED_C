@@ -97,16 +97,16 @@ int main(){
     char c = 'C';
   
     const char *ptr = &a;
-    *ptr = 'B';   // error: Lỗi vì  value không thay đổi được
+    *ptr = 'B';   // error: Lỗi vì  value không được thay đổi 
     ptr = &b;    // address thay đổi được
     
     char *const ptr1 = &b;
     *ptr1 = 'A';   //  value thay đổi được
-    ptr1 = &b;    // error: Lỗi vì address không thay đổi được
+    ptr1 = &b;    // error: Lỗi vì address không  được thay đổi
     
     const char * const ptr2 = &c;
-    *ptr2 = 'B';   // error: Lỗi vì value không thay đổi được
-    ptr2 = &c;    // error: Lỗi vì address không thay đổi được
+    *ptr2 = 'B';   // error: Lỗi vì value không được thay đổi 
+    ptr2 = &c;    // error: Lỗi vì address không được thay đổi 
 
     return 0;
 }
