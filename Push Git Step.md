@@ -1,4 +1,4 @@
-# Các bước push Git 
+<img width="1149" height="253" alt="image" src="https://github.com/user-attachments/assets/c4e4d065-04b4-4742-8d9c-271239d307be" /># Các bước push Git 
 ```c
 git init
 git add .
@@ -41,4 +41,11 @@ git pull origin main
 git add "<Folder>/<File>"
 git commit -m "update <file or feature>"
 git push origin main
+```
+### get code from another github
+```
+B1: open cmd
+B2: cd Project_Folder
+B3: git clone https://github.com/user/repo.git
+B4: build and run
 ```
